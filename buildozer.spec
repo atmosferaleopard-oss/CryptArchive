@@ -9,3 +9,5 @@ requirements = python3,kivy,pygame
 orientation = portrait
 fullscreen = 0
 android.archs = arm64-v8a
+android.ndk = 25b
+android.api = 33
