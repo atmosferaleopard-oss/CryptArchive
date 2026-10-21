@@ -29,9 +29,11 @@ jobs:
         pip install buildozer
         pip install cython==0.29.36
 
+    - name: Clean Buildozer Cache
+      run: rm -rf .buildozer android
+
     - name: Build with Buildozer
       run: |
-        yes | buildozer android clean
         yes | buildozer -v android debug
         
     - name: Upload APK
