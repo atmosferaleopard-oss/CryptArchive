@@ -5,7 +5,7 @@ package.domain = org.cryptarchive
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,wav,md
 version = 1.0
-requirements = python3==3.10.10,kivy
+requirements = hostpython3==3.10.10,python3==3.10.10,kivy
 orientation = portrait
 fullscreen = 0
 android.archs = arm64-v8a
