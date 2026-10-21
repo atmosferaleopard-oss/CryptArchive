@@ -11,3 +11,6 @@ fullscreen = 0
 android.archs = arm64-v8a
 android.ndk = 25b
 android.api = 33
+android.allow_shared_libs = True
+p4a.branch = master
+p4a.bootstrap = sdl2
